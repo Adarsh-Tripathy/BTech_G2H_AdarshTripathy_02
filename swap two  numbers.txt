@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+    int a,b,c;
+    printf("Enter a:");
+    scanf("%d",&a);
+    printf("Enter b:");
+    scanf("%d",&b);
+    c=a;
+    a=b;
+    b=c;
+    printf("New value of a is:%d\n",a);
+    printf("New value of b is:%d",b);
+    return 0;
+}
