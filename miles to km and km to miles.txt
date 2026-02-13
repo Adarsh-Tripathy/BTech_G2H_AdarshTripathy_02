@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+    float a,b,c;
+    printf("Distance to convert kms to miles:");
+    scanf("%f",&a);
+    printf("Distance to convert miles to kms:");
+    scanf("%f",&b);
+    printf("Distance in miles is:%f\n",a/1.6);
+    printf("Distance in kms is:%f",b*1.6);
+    return 0;
+   }
