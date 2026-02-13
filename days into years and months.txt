@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(){
+   int a;
+   printf("Enter no of days to convert into years and months:");
+   scanf("%d",&a);
+   printf("No of years is:%d\n",a/365);
+   printf("No of month is:%d\n",a/30);
+   printf("No of days left is:%d\n",(a%365)%30);
+   }
