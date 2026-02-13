@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main(){
+    float a,b;
+    char c;
+    printf("Enter first number:");
+    scanf("%f",&a);
+    printf("Enter second number:");
+    scanf("%f",&b);
+    printf("Enter 1 for '+'\nEnter 2 for '-'\nEnter 3 for '*'\nEnter 4 for '/'\n");
+    scanf(" %c",&c);
+    if(c=='1'){
+        printf("%f",a+b);
+    }
+    else if(c=='2'){
+        printf("%f",a-b);
+    }
+    else if(c=='3'){
+        printf("%f",a*b);
+    }
+    else if(c=='4'){
+        printf("%f",a/b);
+    }
+    return 0;
+}
