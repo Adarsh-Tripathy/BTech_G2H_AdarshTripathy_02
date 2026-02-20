@@ -3,7 +3,7 @@ int main(){
     int a,b,c;
     printf("Enter two numbers:");
     scanf("%d%d",&a,&b);
-    printf("enter 1,2,3,4 for *,/,+,-\n");
+    printf("enter 1,2,3,4 for *,/,+,- respectively \n");
     scanf("%d",&c);
     switch(c){
         case 1:
@@ -22,4 +22,5 @@ int main(){
             printf("Invalid");
     }
     return 0;
+
 }
