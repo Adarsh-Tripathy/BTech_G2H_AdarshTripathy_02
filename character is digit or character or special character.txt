@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<ctype.h>
+int main(){
+    char num;
+    printf("Enter the character:");
+    scanf("%c",&num);
+    if(isalpha(num)){
+        printf("character");
+    }
+    else if(isdigit(num)){
+        printf("digit");
+    }
+    else printf("special character");
+    return 0;
+}
