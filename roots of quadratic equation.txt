@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+    int a,b,c,d;
+    printf("enter coefficients of quadratic equation:");
+    scanf("%d%d%d",&a,&b,&c);
+    d=sqrt((b*b)-(4*a*c));
+    if(d<0){
+        printf("imaginary roots");
+    }
+    else{printf("root is %d \n",(-b+d)/(2*a));
+         printf("root is %d",(b+d)/(2*a));
+    }
+}
