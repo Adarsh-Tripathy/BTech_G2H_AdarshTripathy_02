@@ -8,6 +8,6 @@ int main(){
         a[i] = a[b];
         a[b] = temp;
     }
-    printf("%d", a[3]);
+    printf("array is reversed");
     return 0;
 }
