@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main(){
+    int a,b;
+    int temp;
+    int lcm;
+    printf("enter two numbers:");
+    scanf("%d%d",&a,&b);
+    int c=a;
+    int d=b;
+    while(a>0 && b>0 ){
+        if(a>b){
+            a=a-b;
+        }
+        else b=b-a;
+    }
+    if(a==0){
+        temp=d;
+        printf("gcd is:%d\n",b);
+    }
+    else{
+        temp=c;
+        printf("gcd is:%d\n",a);
+    }
+    lcm=(c*d)/temp;
+    printf("lcm is :: %d",lcm);
+}
