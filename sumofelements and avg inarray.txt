@@ -8,5 +8,6 @@ int main(){
     }
     int avg;
     avg=sum/5;
-    printf("sum is :: %d",sum,"average is :: %d",avg);
+    printf("sum is :: %d\n",sum);
+    printf("average is :: %d",avg);
 }
